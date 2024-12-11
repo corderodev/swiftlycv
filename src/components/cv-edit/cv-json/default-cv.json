@@ -1,0 +1,46 @@
+{
+  "name": "Jhon Doe Jr.",
+  "location": "New York, USA",
+  "social": "linkedin.com/in/jhondoejr, +1 (800) 555-1212, jhondoejr@gmail.com",
+  "summary": "Experienced software developer with a passion for creating efficient and scalable applications. Skilled in JavaScript, React, Node.js, and Python. Proficient in SQL and NoSQL databases. Strong problem-solving and analytical skills.",
+  "experience": [
+    {
+      "title": "Senior Developer",
+      "company": "Tech Co.",
+      "location": "New York, USA",
+      "duration": "October, 2018 - Present",
+      "achievements": "Led development of multiple high-impact projects. Contributed to the development of innovative web applications. Managed the growth of a team of 10 developers. Led the migration of the company\"s website to a new CMS system"
+    },
+    {
+      "title": "Junior Developer",
+      "company": "Start Up Inc.",
+      "location": "New York, USA",
+      "duration": "July, 2015 - September, 2018",
+      "achievements": "Contributed to the development of innovative web applications. Managed the growth of a team of 5 developers. Led the migration of the company\"s website to a new CMS system"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "school": "University of Technology",
+      "location": "New York, USA",
+      "year": "2015 - 2018",
+      "achievements": "Received a Bachelor\"s degree in Computer Science from the University of Technology"
+    },
+    {
+      "degree": "Master of Science in Computer Science",
+      "school": "University of Technology",
+      "location": "New York, USA",
+      "year": "2012 - 2015",
+      "achievements": "Received a Master\"s degree in Computer Science from the University of Technology"
+    }
+  ],
+  "skills": [
+    "Speaks English and Spanish fluently",
+    "+1 year of experience in JavaScript",
+    "+1 year of experience in React",
+    "+2 years of experience in Node.js",
+    "Scripts with Python",
+    "Real experience with SQL and NoSQL databases"
+  ]
+}
