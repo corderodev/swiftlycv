@@ -39,3 +39,23 @@
     @apply bg-neutral-50 text-foreground;
   }
 }
+
+@layer utilities {
+  .section-spacing {
+    @apply pt-12 pb-20;
+  }
+
+  @media print {
+    body {
+      @apply bg-white !important;
+    }
+
+    .print-show {
+      @apply block
+    }
+
+    .print-hide {
+      @apply hidden
+    }
+  }
+}
