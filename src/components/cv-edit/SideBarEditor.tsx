@@ -34,7 +34,6 @@ interface SideBarEditorProps {
   ) => void
   handleChangeSkills: (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
-    field: string,
     index: number
   ) => void
 }

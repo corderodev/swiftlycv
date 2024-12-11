@@ -24,15 +24,15 @@ export default function CvEdit () {
 
   const handleChangeSkills = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
-    field: string,
     index: number
   ) => {
-    const value = e.target.value
+    setCv(prevCv => {
+      const updatedSkills = prevCv.skills.map((skill, i) =>
+        i === index ? e.target.value : skill
+      )
 
-    setCv(prev => ({
-      ...prev,
-      [field]: prev[field].map((item, i) => (i === index ? value : item))
-    }))
+      return { ...prevCv, skills: updatedSkills }
+    })
   }
 
   const handleSectionChange = (

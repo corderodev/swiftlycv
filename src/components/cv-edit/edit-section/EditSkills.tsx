@@ -8,7 +8,6 @@ interface EditSkillsProps {
   clearSection: (section: 'experience' | 'education' | 'skills') => void
   handleChangeSkills: (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
-    field: string,
     index: number
   ) => void
 }
@@ -31,7 +30,7 @@ export const EditSkills = ({
             <li key={index}>
               <Input
                 value={skill}
-                onChange={e => handleChangeSkills(e, 'skills', index)}
+                onChange={e => handleChangeSkills(e, index)}
                 placeholder={
                   lang === 'es'
                     ? 'Habilidad (ej: Javascript, React, Node.js)'
