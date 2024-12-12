@@ -38,8 +38,11 @@ export const PreviewPanel = ({
     >
       <div
         className={cn(
-          'max-w-3xl space-y-8 py-6 px-8 min-h-screen text-gray-600 grid',
-          isEditorOpen ? 'ml-auto' : 'mx-auto'
+          'max-w-3xl space-y-8 py-6 px-8 min-h-screen text-gray-600',
+          isEditorOpen ? 'ml-auto' : 'mx-auto',
+          name && summary && location && social && experience && education && skills
+            ? ''
+            : 'grid items-center'
         )}
       >
         {name &&
@@ -61,7 +64,7 @@ export const PreviewPanel = ({
             <PreviewSkills lang={lang} skills={skills} />
           </>
         ) : (
-          <p className='h-fit m-auto text-lg text-center flex flex-wrap gap-2 items-center justify-center'>
+          <p className='mx-auto text-lg text-center flex flex-wrap gap-2 items-center justify-center'>
             You need first to fill fields in the editor, please click the{' '}
             <span className='p-2 rounded-full border bg-white shadow-sm'>
               <Pencil className='size-5' />
