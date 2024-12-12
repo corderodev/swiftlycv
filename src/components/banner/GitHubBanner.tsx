@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function GitHubBanner () {
   return (
     <Link
-      href='https://github.com/corderodev/quick-cv'
+      href='https://github.com/corderodev/swiftlycv'
       className='group flex items-center w-fit mx-auto px-4 py-1 rounded-full shadow-sm border border-border bg-white hover:bg-neutral-100 duration-200 transition-colors'
     >
       <span className='me-1 text-base leading-none hover:fill-blue-400 pr-1'>
