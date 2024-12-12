@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title:
-    'Quick CV - Make your Resume beautiful, easy and fast in a few minutes.',
+    'Swiftly CV - Make your Resume beautiful, easy and fast in a few minutes.',
   description:
     'Customize your resume for every job you apply to! This tool allows you to create one or multiple resumes quickly and easily in just minutes.'
 }

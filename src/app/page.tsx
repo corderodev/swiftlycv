@@ -16,7 +16,7 @@ export default function Home () {
               <span className='text-blue-600'>in a few minutes</span>
             </h1>
             <p className='mx-auto max-w-[700px] text-gray-500 md:text-lg dark:text-gray-400'>
-              <strong>Quick CV</strong> is a free and open source tool to create
+              <strong>Swiftly CV</strong> is a free and open source tool to create
               your CV more easily and quickly than ever before. Simplify your
               job search and stand out today!
             </p>
