@@ -15,7 +15,7 @@ export const Navbar = () => {
             Editor CV
           </Link>
           <Link
-            href='https://github.com/corderodev/cv-fast'
+            href='https://github.com/corderodev/swiftlycv'
             className='transition-colors hover:text-foreground/80 text-foreground'
           >
             GitHub
