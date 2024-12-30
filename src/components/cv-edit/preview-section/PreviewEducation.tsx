@@ -5,7 +5,10 @@ interface PreviewEducationProps {
   lang: 'en' | 'es'
 }
 
-export const PreviewEducation = ({ education, lang }: PreviewEducationProps) => {
+export const PreviewEducation = ({
+  education,
+  lang
+}: PreviewEducationProps) => {
   return (
     <>
       {education.length !== 0 && (
@@ -29,11 +32,13 @@ export const PreviewEducation = ({ education, lang }: PreviewEducationProps) => 
                     <p className='text-sm'>{year}</p>
                   </div>
                 </div>
-                <ul className='list-disc ml-4 text-sm'>
-                  {achievements.split('.').map((achievement, i) => (
-                    <li key={i}>{achievement}.</li>
-                  ))}
-                </ul>
+                {achievements.length !== 0 && (
+                  <ul className='list-disc ml-4 text-sm'>
+                    {achievements.split('.').map((achievement, i) => (
+                      <li key={i}>{achievement}.</li>
+                    ))}
+                  </ul>
+                )}
               </div>
             )
           )}
